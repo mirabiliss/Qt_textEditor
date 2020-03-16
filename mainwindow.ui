@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="actionPrint"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionFind"/>
+    <addaction name="actionReplace"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <widget class="QMenu" name="menuFormat">
+    <property name="title">
+     <string>Format</string>
+    </property>
+    <addaction name="actionFont"/>
+    <addaction name="actionColor"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuOptions"/>
+   <addaction name="menuFormat"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save as...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="text">
+    <string>Find...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionReplace">
+   <property name="text">
+    <string>Replace...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+F</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F10</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="text">
+    <string>Font</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
